@@ -1,0 +1,34 @@
+{
+  "name": "es-scavenger",
+  "version": "1.0.0",
+  "description": "A cli tool to delete expired elasticsearch indexes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "es-scavenger": "bin/es-scavenger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonz93/es-scavenger.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "delete",
+    "clean",
+    "expire"
+  ],
+  "author": "Sihao Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonz93/es-scavenger/issues"
+  },
+  "homepage": "https://github.com/jasonz93/es-scavenger#readme",
+  "dependencies": {
+    "arguejs": "^0.2.3",
+    "bluebird": "^3.5.0",
+    "commander": "^2.9.0",
+    "elasticsearch": "^12.1.3"
+  }
+}
